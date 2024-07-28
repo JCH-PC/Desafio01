@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilos.css">
+    <title>Desafio01</title>
+</head>
+<body>
+    <div class="contenedor">
+        <div class="izquierda">
+            <div class="logo">
+                <img src="img/Logo.png">
+            </div>
+            <div class="contenido">
+                <textarea id="texto" rows="5" placeholder="Ingrese el texto aqui"></textarea>
+            </div>
+            <div class="content" style="padding-bottom: 20px;">
+                <img src="img/adv.png" height="100%">
+                Solo letras minúsculas y sin acentos.
+            </div>
+            <div class="content">
+                <button class="btn-encriptar" type="button" onclick="encriptar()">Encriptar</button>
+                <input type="button" class="btn-desencriptar" value="Desencriptar" onclick="desencriptar()">
+            </div>
+        </div>
+
+        <div class="derecha">
+            <div class="logo">
+                <img src="img/Muñeco.png" width="100%">
+            </div>
+
+            <div class="msg">
+                <h2 id="mensaje-titulo">
+                    Ningún mensaje fue encontrado
+                </h2>
+
+                <p id="mensaje-contenido">
+                    Ingresa el texto que desees encriptar o desencriptar.
+                </p>
+
+                <!-- Botón para copiar texto -->
+                <button id="btn-copiar" class="btn-encriptar" style="display: none;" onclick="copiarTexto()">Copiar</button>
+            </div>
+        </div>
+    </div>
+
+    <footer class="pie-pagina">
+        <div class="grupo-1">
+            <div class="box">
+                <figure>
+                    <a href="#">
+                        <img src="img/Logo.png" alt="Logo de SLee Dw">
+                    </a>
+                </figure>
+            </div>
+            <div class="box">
+                <h2>SOBRE MI</h2>
+                <p>Estudiante de Computación e Informática en el Instituto de Educación Superior Tecnológico Público Argentina</p>
+            </div>
+            <div class="box">
+                <h2>SIGUEME</h2>
+                <div class="red-social">
+                    <a href="https://github.com/JCH-PC" ><img src="img/github.png" height="30" width="35"></a>
+                    <a href="https://www.linkedin.com/in/jhon-chuquillanqui-huamani-325376316/" ><img src="img/linkedin-logo.png" height="30" width="35"></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/app.js"></script>
+</body>
+</html>
+
