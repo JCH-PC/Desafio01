@@ -40,18 +40,20 @@ function encriptar() {
         textoEncriptado = textoEncriptado.replace(regex, reglas[letra]);
     }
 
-    // Muestra el texto encriptado en el div derecho
+    // Muestra el texto encriptado
     document.getElementById('mensaje-titulo').innerText = 'Texto encriptado';
     document.getElementById('mensaje-contenido').innerText = textoEncriptado;
     document.getElementById('texto').value = '';
 
     // Muestra el botón de copiar
     document.getElementById('btn-copiar').style.display = 'block';
+    document.getElementById('btn-desencriptar').disabled = false;
 }
 
 function desencriptar() {
     // Obtén el valor del textarea
     const textoEncriptado = document.getElementById('texto').value;
+
 
     // Define las reglas de desencriptación
     const reglas = {
@@ -80,9 +82,10 @@ function desencriptar() {
     document.getElementById('mensaje-titulo').innerText = 'Texto desencriptado';
     document.getElementById('mensaje-contenido').innerText = textoDesencriptado;
     document.getElementById('texto').value = '';
+    document.getElementById('btn-desencriptar').disabled = true;
 
     // Oculta el botón de copiar
-    document.getElementById('btn-copiar').style.display = 'none';
+    document.getElementById('btn-copiar').style.display = 'block';
 }
 
 function copiarTexto() {
@@ -104,6 +107,3 @@ function copiarTexto() {
     // Opcional: muestra un mensaje de éxito
     alert('Texto copiado al portapapeles');
 }
-
-
-
