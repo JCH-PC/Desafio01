@@ -9,7 +9,7 @@
 </div>
 
 <p align="center">
-  a
+  <img src="https://img.shields.io/badge/Estado-Concluido-brightgreen">
 </p>
 
 ## Descripción del Proyecto
