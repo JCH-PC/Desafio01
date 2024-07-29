@@ -17,6 +17,6 @@
 Este proyecto esta diseñada para encriptar y desencriptar textos, ofreciendo una solución sencilla y eficaz para la protección de datos sensibles.
 
 ## Características de la aplicación y demostración
-- ` **Característica 1** `: Texto
+- `Característica 1:` Texto
 
 
