@@ -18,5 +18,6 @@ Este proyecto esta diseñada para encriptar y desencriptar textos, ofreciendo un
 
 ## Características de la aplicación y demostración
 - `Característica 1:` Texto
+> Solo puede encriptar letras minúsculas sin acentos ni caracteres especiales.
 
 
