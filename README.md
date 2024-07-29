@@ -10,6 +10,7 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/Estado-Concluido-blue">
+  <img src="https://img.shields.io/badge/Version-v5.0-blue">
 </p>
 
 ## Descripción del Proyecto
