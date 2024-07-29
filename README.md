@@ -10,4 +10,7 @@
   </h1>
 </div>
 
-## Descripción de su proyecto
+## Descripción del Proyecto
+Este proyecto esta diseñada para encriptar y desencriptar textos, ofreciendo una solución sencilla y eficaz para la protección de datos sensibles.
+
+
