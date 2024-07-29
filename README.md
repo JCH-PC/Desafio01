@@ -16,8 +16,9 @@
 ## Descripción del Proyecto
 Este proyecto esta diseñada para encriptar y desencriptar textos, ofreciendo una solución sencilla y eficaz para la protección de datos sensibles.
 
-## Características de la aplicación y demostración
+## Características de la aplicación
 - `Característica 1:` Texto
-> Solo puede encriptar letras minúsculas sin acentos ni caracteres especiales.
-
+> Solo puede encriptar letras minúsculas sin acentos ni caracteres especiales. Además, debe tener un carácter o más.
+- `Característica 2:` Botones
+> Cuando 
 
