@@ -47,7 +47,6 @@ function encriptar() {
 
     // Muestra el botón de copiar
     document.getElementById('btn-copiar').style.display = 'block';
-    document.getElementById('btn-desencriptar').disabled = false;
 }
 
 function desencriptar() {
@@ -82,7 +81,6 @@ function desencriptar() {
     document.getElementById('mensaje-titulo').innerText = 'Texto desencriptado';
     document.getElementById('mensaje-contenido').innerText = textoDesencriptado;
     document.getElementById('texto').value = '';
-    document.getElementById('btn-desencriptar').disabled = true;
 
     // Oculta el botón de copiar
     document.getElementById('btn-copiar').style.display = 'block';
